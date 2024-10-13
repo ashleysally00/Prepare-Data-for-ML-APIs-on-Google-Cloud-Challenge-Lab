@@ -10,8 +10,11 @@ View the schema by running ``` cat lab.schema ```.
 
 2. Go back to the Cloud Console, select the new dataset lab and click **Create Table**.
 
-In the Create table dialog, select Google **Cloud Storage** from the dropdown in the Source section.
+In the Create table dialog:
 
+1. In the dropwdown menu of the Source section, select Google **Cloud Storage**. 
+2. In "Select file from GCS bucket" enter``` gs://cloud-training/gsp323/lab.csv ```.
+3. In the Destination section, for “Table name” enter ``` customers ```. 
 
 
 Create a Cloud Storage Bucket called Cloud Storage Bucket Name.
