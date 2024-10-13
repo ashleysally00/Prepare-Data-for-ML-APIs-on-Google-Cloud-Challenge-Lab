@@ -15,7 +15,7 @@
    a. In the dropdown menu of the Source section, select **Google Cloud Storage**.
    b. In "Select file from GCS bucket" enter:  
       ```
-      gs://cloud-training/gsp323/lab.csv
+      cloud-training/gsp323/lab.csv
       ```
    c. In the Destination section, for "Table name" enter:  
       ```
