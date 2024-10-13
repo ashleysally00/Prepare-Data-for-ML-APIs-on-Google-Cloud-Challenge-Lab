@@ -1,4 +1,4 @@
-# Prepare Data for ML APIs on Google Cloud Challenge Lab
+# Prepare Data for ML APIs on Google Cloud Challenge Lab - *notes for solution*
 
 ## Task 1: Run a simple Dataflow job
 
