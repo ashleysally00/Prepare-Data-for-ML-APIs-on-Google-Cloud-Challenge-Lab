@@ -24,9 +24,9 @@ In the Create table dialog:
 
 3. ## Create a Cloud Storage Bucket called Cloud Storage Bucket Name. ##
 
-3a.In the Cloud Console, click on Navigation *** Menu > Storage. ***
+3a.In the Cloud Console, click on Navigation **Menu > Storage.**
 3b. Click **CREATE BUCKET.**
-3c. Copy your GCP Project ID to Name your bucket.
+3c. Copy your **GCP Project ID** to Name your bucket.
 3d. Click **CREATE.**
 
 4.  ## Create a Dataflow job ##
