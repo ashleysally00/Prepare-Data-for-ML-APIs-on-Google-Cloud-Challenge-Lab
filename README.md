@@ -84,23 +84,23 @@
 ## Task 3: Run a simple Dataprep job
 
 1. Import runs.csv to Dataprep:
-   a. In the Cloud Console, click **Navigation menu > Dataprep**.
-   b. Enter the home page of Cloud Dataprep, click the **Import Data** button.
-   c. In the Import Data page, select **GCS** in the left pane.
-   d. Click on the pencil icon under "Choose a file or folder".
-   e. Copy `gs://cloud-training/gsp323/runs.csv` to the textbox, and click the **Go** button next to it.
-   f. Preview of runs.csv showing in the right pane.
-   g. Click on the **Import & Wrangle** button.
+   a. - In the Cloud Console, click **Navigation menu > Dataprep**.
+   b. - Enter the home page of Cloud Dataprep, click the **Import Data** button.
+   c. - In the Import Data page, select **GCS** in the left pane.
+   d. - Click on the pencil icon under "Choose a file or folder".
+   e. - Copy `gs://cloud-training/gsp323/runs.csv` to the textbox, and click the **Go** button next to it.
+   f. - Preview of runs.csv showing in the right pane.
+   g. - Click on the **Import & Wrangle** button.
 
 2. Transform data in Dataprep:
-   a. After launching the Dataprep Transformer, scroll right to the end and select column10.
-   b. In the Details pane, click FAILURE under Unique Values to show context menu.
-   c. Right-click FAILURE, select Delete rows with selected values to Remove all rows with the state of "FAILURE".
-   d. Click the downward arrow next to column9, choose Filter rows > On column value > Contains.
-   e. In the Filter rows pane, enter the regex pattern `/(^0$|^0\.0$)/` to "Pattern to match".
-   f. Select Delete matching rows under the Action section, then click the Add button.
-   g. Rename the columns to be: runid, userid, labid, lab_title, start, end, time, score, state
-   h. Click Run Job.
+   a. - After launching the **Dataprep Transformer,** scroll right to the end and *select* **column10.**
+   b. - In the Details pane, click **FAILURE** under *Unique Values* to show "context menu."
+   c. - **Right-click** ***FAILURE,*** select **Delete rows** with selected values to **Remove all rows** with the *state* of "FAILURE".
+   d. - **Click** the **downward arrow** next to *column9,* choose **Filter rows > On column value > Contains.**
+   e. - In the *Filter rows* pane, enter the ``` regex ``` pattern `/(^0$|^0\.0$)/` to "Pattern to match".
+   f. - *Select* **Delete matching row**s under the *Action section,* then **click** the **Add** button.
+   g. - Rename the columns to be: runid, userid, labid, lab_title, start, end, time, score, state
+   h. - Click **Run Job.**
 
 *Green Check will take time. Do Other Tasks*
 
