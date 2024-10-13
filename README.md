@@ -43,16 +43,17 @@
    c. The job name can be anything you want that works.
    d. From the dropdown under **Dataflow template**, select **Text Files on Cloud Storage to BigQuery** under **"Process Data in Bulk (batch)"**. (**DO NOT** select the item under "Process Data Continuously (stream)")
 
-   For the **Required parameters**, enter the values found in the table on the first page of your lab
-   1. - FieldValueJavaScript **UDF path** in Cloud Storage: `gs://cloud-training/gsp323/lab.js`
-   2. - **JSON path**: `gs://cloud-training/gsp323/lab.schema`
-   3. - JavaScript **UDF name**: `transform`
-   4. - **BigQuery output table**: `YOUR_PROJECT:lab.customers`
-   5. - **Cloud Storage input path**: `gs://cloud-training/gsp323/lab.csv`
-   6. - **Temporary BigQuery directory**: `gs://YOUR_PROJECT/bigquery_temp`
-   7. - **Temporary location**: `gs://YOUR_PROJECT/temp`
 
-   Replace **YOUR_PROJECT** with your project ID.
+| Field  | Second Value |
+| ------------- | ------------- |
+| Cloud Storage input file(s) | `gs://cloud-training/gsp323/lab.csv  |
+| Cloud Storage location of your BigQuery schema file | `gs://cloud-training/gsp323/lab.schema`  |
+| BigQuery output table | `Output Table Name`  |
+| Temporary directory for BigQuery loading process | `Temporary BigQuery Directory`  |
+| Temporary location | `Temporary Location` |
+| Optional Parameters > JavaScript UDF path in Cloud Storage | `gs://cloud-training/gsp323/lab.js` |
+| Optional Parameters > JavaScript UDF name | `transform` |
+| Optional Parameters > Machine Type  | `e2-standard-2`   |
 
    e. Click **RUN JOB**.
 
@@ -74,6 +75,24 @@
    ```
    hdfs dfs -cp gs://cloud-training/gsp323/data.txt /data.txt
    ```
+Run a Dataproc job using the values below.
+
+| Field  | Value |
+| ------------- | ------------- |
+| Region | your lab region  |
+| Job type | Spark  |
+| Jar files | file:///usr/lib/spark/examples/jars/spark-examples.jar  |
+| Arguments | `/data.txt` |
+| Max restarts per hour | `1 |
+| Dataproc Cluster | Compute Engine |
+| Region | your lab region |
+| Machine Series | `E2`   |
+| Manager Node| `Set Machine Type to e2-standard-2` |
+| Worker Node | `Set Machine Type to e2-standard-2` |
+| Max Worker Nodes | 2 |
+| Primary disk size | 100 GB  |
+| Internal IP only | Deselect "Configure all instances to have only internal IP addresses  |
+
 
 3. Submit a job:
    a. Click **SUBMIT JOB** in the cluster details page.
