@@ -7,6 +7,8 @@
    Run the following in the Cloud Shell to download the schema file:
    ```bash
    gsutil cp gs://cloud-training/gsp323/lab.schema .
+
+   cat lab.schema
    ```
 ---
 2. Create a table in BigQuery:
