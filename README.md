@@ -1,5 +1,7 @@
 # Prepare Data for ML APIs on Google Cloud Challenge Lab - *notes for solution*
 
+#### *Adjust the IAM permissions according to lab instructions first*
+
 ## Task 1: Run a simple Dataflow job
 
 1. Create a BigQuery dataset called **BigQuery Dataset Name**.
