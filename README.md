@@ -8,7 +8,7 @@
    ```bash
    gsutil cp gs://cloud-training/gsp323/lab.schema .
    ```
-
+---
 2. Create a table in BigQuery:
    a. In the dropdown menu of the Source section, select **Google Cloud Storage**.
    b. In "Select file from GCS bucket" enter:  
@@ -28,12 +28,12 @@
       [ ]
       ```
    f. Click the button to **Create**.
-
+----
 3. Create a Cloud Storage Bucket:
-   a. In the Cloud Console, click on **Navigation Menu > Storage**.
-   b. Click **CREATE BUCKET**.
-   c. Copy your **GCP Project ID** to name your bucket.
-   d. Click **CREATE**.
+   a. - In the Cloud Console, click on **Navigation Menu > Storage**.
+   b. - Click **CREATE BUCKET**.
+   c. - Copy your **GCP Project ID** to name your bucket.
+   d. - Click **CREATE**.
 
 4. Create a Dataflow job:
    a. In the Cloud Console, click on **Navigation Menu > Dataflow**.
@@ -55,6 +55,8 @@
    e. Click **RUN JOB**.
 
 *While you are waiting for this to complete, do the other tasks or the lab will time out.*
+
+-----------
 
 ## Task 2: Run a simple Dataproc job
 
@@ -81,6 +83,8 @@
 
 *While you are waiting for this to complete, do the other tasks or the lab will time out.*
 
+-----------
+
 ## Task 3: Run a simple Dataprep job
 
 1. Import runs.csv to Dataprep:
@@ -103,6 +107,8 @@
    - h. Click **Run Job.**
 
 *Green Check will take time. Do Other Tasks*
+
+-----------
 
 ## Task 4: AI
 
