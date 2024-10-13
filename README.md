@@ -43,7 +43,7 @@
    c. The job name can be anything you want that works.
    d. From the dropdown under **Dataflow template**, select **Text Files on Cloud Storage to BigQuery** under **"Process Data in Bulk (batch)"**. (**DO NOT** select the item under "Process Data Continuously (stream)")
 
-   For the **Required parameters**, enter the following:
+   For the **Required parameters**, enter the values found in the table on the first page of your lab
    1. - FieldValueJavaScript **UDF path** in Cloud Storage: `gs://cloud-training/gsp323/lab.js`
    2. - **JSON path**: `gs://cloud-training/gsp323/lab.schema`
    3. - JavaScript **UDF name**: `transform`
