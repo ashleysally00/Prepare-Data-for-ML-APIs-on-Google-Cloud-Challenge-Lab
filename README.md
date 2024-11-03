@@ -1,4 +1,6 @@
-# Prepare Data for ML APIs on Google Cloud Challenge Lab - *notes for solution*
+# Prepare Data for ML APIs on Google Cloud Challenge Lab - *notes for a solution*
+
+Find this lab [here](https://www.cloudskillsboost.google/course_templates/631) *(Machine Learning Engineer Learning Path - Google Cloud Skills Boost)*
 
 #### *Adjust the IAM permissions according to lab instructions first*
 
